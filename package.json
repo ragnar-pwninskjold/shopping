@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "mocha spec"
+    "test": "mocha --spec"
   },
   "author": "",
   "license": "ISC",
