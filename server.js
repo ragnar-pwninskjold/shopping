@@ -54,7 +54,7 @@ app.post('/items', function(req, res) {
     }, function(err, item) {
         if (err) {
             return res.status(500).json({
-                message: 'Internal Server Error'
+                message: 'Internal Server Error - ' + err
             });
         }
         res.status(201).json(item);
